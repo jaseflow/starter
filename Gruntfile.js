@@ -33,7 +33,7 @@ module.exports = function(grunt) {
 
         watch: {
            stylus: {
-               files: ['styles/app.styl'],
+               files: ['source/styles/app.styl'],
                tasks: ['stylus']
            },
            livereload: {
